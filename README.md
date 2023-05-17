@@ -1,2 +1,2 @@
 # cheatsheets
-Cheatsheets for everything
+- [Pacman (Archlinux)](https://github.com/javiorfo/cheatsheets/blob/master/pacman.md)
