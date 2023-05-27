@@ -1,8 +1,13 @@
 # Commands
 - `gcc main.c -o something`
-- `gcc -c main.c` (generates object files: machine code)
-- `gcc main.c -llib -o something` (where lib is the name of the library)
-- `gcc -Wall main.c -static -I/opt/include -L/opt/lib -o something` (forces to use lib.a instead of lib.so)
+- `gcc -c main.c` (generates object files: machine code main.o)
+- Libs
+  - `gcc main.c -llib -o something` (where lib is the name of the library)
+  - `gcc -Wall main.c -static -I/opt/include -L/opt/lib -o something` (forces to use lib.a instead of lib.so)
+- Preprocessor
+  - `gcc -DNUM=10 -o main.c` (passing NUM=10 as a macro)
+  - `gcc -DMESSAGE="\"Hello, World!\"" -o main.c` (passing MESSAGE="Hello, World" as a macro)
+  - `gcc -E main.c` (show the macro values)
 
 ---
 
