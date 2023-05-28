@@ -8,6 +8,8 @@
   - `gcc -DNUM=10 -o main.c` (passing NUM=10 as a macro)
   - `gcc -DMESSAGE="\"Hello, World!\"" -o main.c` (passing MESSAGE="Hello, World" as a macro)
   - `gcc -E main.c` (show the macro values)
+- Optimization
+  - `gcc -Wall -01 main.c -o main` (-01 optimization, also 02, 03 and -funroll-loops)
 
 ---
 
