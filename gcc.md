@@ -10,6 +10,9 @@
   - `gcc -E main.c` (show the macro values)
 - Optimization
   - `gcc -Wall -01 main.c -o main` (-01 optimization, also 02, 03 and -funroll-loops)
+- Static library
+  - `ar cr libhello.a hello_fn.o main.o` (this will create libhello.a, a static library)
+  - `gcc -Wall main.c libhello.a -o executable` (compiles main.c with libhello and generates executable)
 
 ---
 
