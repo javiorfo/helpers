@@ -1,5 +1,6 @@
 # cheatsheets
 - [GCC](https://github.com/charkuils/cheatsheets/blob/master/gcc.md)
+- [Make](https://github.com/charkuils/cheatsheets/blob/master/make.md)
 - [Pacman (Archlinux)](https://github.com/charkuils/cheatsheets/blob/master/pacman.md)
 - [Shell](https://github.com/charkuils/cheatsheets/blob/master/shell.md)
 
