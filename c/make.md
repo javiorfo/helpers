@@ -57,3 +57,42 @@ all:
 	# Bad practice, but works
 	echo $x 
 ```
+- Targets
+```makefile
+all: one two three # all contains targets, it runs by default
+
+one:
+	touch one
+two:
+	touch two
+three:
+	touch three
+
+clean:
+	rm -f one two three
+```
+- Wildcards
+```makefile
+# Print out file information about every .c file
+print: $(wildcard *.c)
+	ls -la  $?
+```
+```makefile
+hey: one two
+	# Outputs "hey", since this is the target name
+	echo $@
+
+	# Outputs all prerequisites newer than the target
+	echo $?
+
+	# Outputs all prerequisites
+	echo $^
+
+	touch hey
+
+one:
+	touch one
+
+two:
+	touch two
+```
