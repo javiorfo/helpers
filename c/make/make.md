@@ -1,4 +1,7 @@
-# Examples:
+# Examples
+- [Makefile](https://github.com/javiorfo/cheatsheets/blob/master/c/make/Makefile)
+
+# Basics:
 - main.c as prerequisite
 ```makefile
 something: main.c
