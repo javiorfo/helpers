@@ -143,3 +143,37 @@ ifneq (,$(findstring i, $(MAKEFLAGS)))
 	echo "i was passed to MAKEFLAGS"
 endif
 ```
+- Functions
+```makefile
+# substitution string
+bar := ${subst not, totally, "I am not superman"}
+all: 
+	@echo $(bar)
+```
+```makefile
+foo := who are you
+# For each "word" in foo, output that same word with an exclamation after
+bar := $(foreach wrd,$(foo),$(wrd)!)
+
+all:
+	# Output is "who! are! you!"
+	@echo $(bar)
+```
+```makefile
+# if function
+foo := $(if this-is-not-empty,then!,else!)
+empty :=
+bar := $(if $(empty),then!,else!)
+
+all:
+	@echo $(foo)
+	@echo $(bar)
+```
+```makefile
+# call a function
+sweet_new_fn = Variable Name: $(0) First: $(1) Second: $(2) Empty Variable: $(3)
+
+all:
+	# Outputs "Variable Name: sweet_new_fn First: go Second: tigers Empty Variable:"
+	@echo $(call sweet_new_fn, go, tigers)
+```
