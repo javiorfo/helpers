@@ -5,6 +5,3 @@
 - [C](https://github.com/javiorfo/cheatsheets/blob/master/c)
   - [GCC](https://github.com/javiorfo/cheatsheets/blob/master/c/gcc.md)
   - [Make](https://github.com/javiorfo/cheatsheets/blob/master/c/make)
-
-## Support
-- Binance: **Pay ID 546639204**
