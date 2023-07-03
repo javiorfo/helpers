@@ -5,3 +5,8 @@
 - [C](https://github.com/javiorfo/cheatsheets/blob/master/c)
   - [GCC](https://github.com/javiorfo/cheatsheets/blob/master/c/gcc.md)
   - [Make](https://github.com/javiorfo/cheatsheets/blob/master/c/make)
+
+---
+
+### Donate
+- [Paypal](https://www.paypal.com/donate/?hosted_button_id=FA7SGLSCT2H8G)
