@@ -1,5 +1,6 @@
 # cheatsheets
 - [Linux](https://github.com/javiorfo/cheatsheets/blob/master/linux)
+  - [Bash Color Codes](https://github.com/javiorfo/cheatsheets/blob/master/linux/bash_color_codes.md)
   - [Pacman (Arch)](https://github.com/javiorfo/cheatsheets/blob/master/linux/pacman.md)
   - [Shell](https://github.com/javiorfo/cheatsheets/blob/master/linux/shell.md)
 - [C](https://github.com/javiorfo/cheatsheets/blob/master/c)
