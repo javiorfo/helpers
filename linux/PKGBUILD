@@ -1,7 +1,7 @@
 # Maintainer: Javier Orfo <javierorfo@protonmail.com>
 
 pkgname=myprogram
-pkgver=0.1.1
+pkgver=0.1.0
 pkgrel=1
 pkgdesc="Configurable statusbar for Xorg server using xsetroot. System info, volume, weather, date, etc."
 arch=('x86_64')
