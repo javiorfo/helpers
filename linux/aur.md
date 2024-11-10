@@ -11,9 +11,17 @@ ssh-keygen -t rsa -b 4096 -C "mail@mail.com"
 ## PC Steps
 - create a repo named as the program itself
 ```bash
-git clone ssh://aur@aur.archlinux.org/my_program.git
+git clone ssh://aur@aur.archlinux.org/myprogram.git
 ```
-- Put inside a PKGBUILD file. [Example]()
+- Put inside a PKGBUILD file. [Example](https://github.com/javiorfo/helpers/blob/master/linux/PKGBUILD)
+- Create a binary compressed using
+```bash
+tar -czf myprogram-0.1.0.tar.gz myprogram-0.1.0/
+```
+- Create a sha512 executing
+```bash
+sha512sum myprogram-0.1.0.tar.gz
+```
 - Execute the command
 ```bash
 makepkg --printsrcinfo > .SRCINFO
