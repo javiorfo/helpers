@@ -1,6 +1,7 @@
 # cheatsheets
 - [Linux](https://github.com/javiorfo/helpers/blob/master/linux)
   - [AUR Archlinux](https://github.com/javiorfo/helpers/blob/master/linux/aur.md)
+  - [AUR Archlinux Owned](https://github.com/javiorfo/helpers/blob/master/linux/aur_owned.md)
   - [Bash Color Codes](https://github.com/javiorfo/helpers/blob/master/linux/bash_color_codes.md)
   - [Pacman (Arch)](https://github.com/javiorfo/helpers/blob/master/linux/pacman.md)
   - [Pass](https://github.com/javiorfo/helpers/blob/master/linux/pass.md)
